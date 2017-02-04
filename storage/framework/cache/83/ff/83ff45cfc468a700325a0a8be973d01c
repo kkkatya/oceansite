@@ -1,0 +1,110 @@
+1486226096a:1:{s:14:"mainLayout.htm";a:6:{s:8:"fileName";s:14:"mainLayout.htm";s:7:"content";s:2624:"==
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{'assets/fonts/flaticon/flaticon.css'|theme}}">
+    <link href="{{ 'assets/css/custom.css'|theme }}" rel="stylesheet">
+	<title>Oceanideas | {{ this.page.title }}</title>
+</head>
+<body>
+	{% page %}
+	<nav class="navbar navbar-white navbar-fixed-bottom" role="navigation">
+        <div class="container-fluid">
+            <!-- Toggle navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{'home'|page}}">OCEANIDEAS</a>
+            </div>
+            <!-- Nav links -->
+            <div class="collapse navbar-collapse" id="collapsed-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="social">    
+                    <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                    <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                    <a href="#"><i class="flaticon-instagram-logo"></i></a>               
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+            
+        </div>
+        <!-- /.container -->
+    </nav>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>";s:5:"mtime";i:1486224869;s:6:"markup";s:2620:"<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{'assets/fonts/flaticon/flaticon.css'|theme}}">
+    <link href="{{ 'assets/css/custom.css'|theme }}" rel="stylesheet">
+	<title>Oceanideas | {{ this.page.title }}</title>
+</head>
+<body>
+	{% page %}
+	<nav class="navbar navbar-white navbar-fixed-bottom" role="navigation">
+        <div class="container-fluid">
+            <!-- Toggle navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{'home'|page}}">OCEANIDEAS</a>
+            </div>
+            <!-- Nav links -->
+            <div class="collapse navbar-collapse" id="collapsed-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="social">    
+                    <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                    <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                    <a href="#"><i class="flaticon-instagram-logo"></i></a>               
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+            
+        </div>
+        <!-- /.container -->
+    </nav>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
