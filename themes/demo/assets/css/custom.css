@@ -1,9 +1,14 @@
 .navbar-white{
 	font-family: 'Montserrat', sans-serif;
+	padding: 10px 0px 10px 0px;
+}
+
+.navbar-brand img{
+	height: 50px;
 }
 
 .navbar-brand{
-	font-size: 2.5em;
+	padding: 0px 15px 0px 15px;
 }
 
 .nav li{

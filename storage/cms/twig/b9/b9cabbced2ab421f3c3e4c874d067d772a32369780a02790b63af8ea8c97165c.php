@@ -52,7 +52,9 @@ class __TwigTemplate_e1194042a98ac3ff51d340c93b6346a2ba86819d83981c57c9bae51dc0c
                 <a class=\"navbar-brand\" href=\"";
         // line 22
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("home");
-        echo "\">OCEANIDEAS</a>
+        echo "\"><img src=\"";
+        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/images/logo.jpg");
+        echo "\"></a>
             </div>
             <!-- Nav links -->
             <div class=\"collapse navbar-collapse\" id=\"collapsed-navbar\">
@@ -134,7 +136,7 @@ class __TwigTemplate_e1194042a98ac3ff51d340c93b6346a2ba86819d83981c57c9bae51dc0c
                     <span class=\"icon-bar\"></span>
                     <span class=\"icon-bar\"></span>
                 </button>
-                <a class=\"navbar-brand\" href=\"{{'home'|page}}\">OCEANIDEAS</a>
+                <a class=\"navbar-brand\" href=\"{{'home'|page}}\"><img src=\"{{'assets/images/logo.jpg'|theme}}\"></a>
             </div>
             <!-- Nav links -->
             <div class=\"collapse navbar-collapse\" id=\"collapsed-navbar\">
