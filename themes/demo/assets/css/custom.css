@@ -1,13 +1,60 @@
+/* About page */
+
+#aboutpage {
+	font-family: "Montserrat";
+	text-align: left;
+}
+
+#aboutpage h1 {
+	margin-bottom: 2%;
+	text-transform: uppercase;
+}
+
+#aboutpage h2 {
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-transform: uppercase;
+}
+
+#aboutpage h4 {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#aboutpage img {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.person p {
+	text-align: justify;
+}
+
 /* Contacts page */
 
 #contactspage {
-	height: 100vh;
-	width: 100vw;
+	font-family: "Montserrat";
+	text-align: left;
+}
+
+#contactspage h1 {
+	text-transform: uppercase;
+	margin-bottom: 1%;
+}
+
+.container {
+	margin-top: 3%;
 }
 
 .map {
+	margin-top: 2%;
 	text-align: center;
-	position: relative;
+	margin-bottom: 2%;
 }
 
 /* Bottom Navbar */
