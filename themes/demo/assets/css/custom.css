@@ -1,0 +1,46 @@
+.navbar-white{
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 0px 10px 0px;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+
+.navbar-brand{
+	padding: 0px 15px 0px 15px;
+}
+
+.nav li{
+	padding: 15px;
+}
+
+.nav>li>a{
+	padding: 0px;
+	color: #a8a8a8;
+	margin-bottom: 5px;
+	border-bottom: #fff solid 1px;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #fff;
+	color: #000;
+	border-bottom: #000 solid 1px;
+}
+
+.social{
+	float: right;
+	line-height: 20px;
+	padding: 15px 0px 15px 0px;
+}
+
+.social a{
+	color: #666;
+}
+
+
+.social a:hover, .social a:focus{
+	text-decoration: none;
+	color: #a8a8a8;
+}
