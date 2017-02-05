@@ -1,3 +1,59 @@
+/* Home page */
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carouser-control{
+	display: none;
+}
+
+.carousel-control:hover, .carousel-control:focus{
+	display: block;
+}
+
+.carousel-control:focus{
+	
+}
+
+.carousel-control.control-right{
+	right: 0;
+	left: auto;
+}
+
+.control-left{
+	left: 0;
+	right: auto;
+}
+
+.glyphicon-menu-right, .glyphicon-menu-left{
+	background-color: #fff;
+	color: #000;
+	border-radius: 50%;
+	line-height: 1;
+	position: absolute;
+	top: 40%;
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 /* Contacts page */
 
 #contactspage {
@@ -15,6 +71,7 @@
 .navbar-white{
 	font-family: 'Montserrat', sans-serif;
 	padding: 10px 0px 10px 0px;
+	background-color: #fff;
 }
 
 .navbar-brand img{
