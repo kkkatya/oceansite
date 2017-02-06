@@ -19,7 +19,10 @@
 }
 
 .carousel-control:focus{
-	
+	outline: 0;
+    color: @carousel-control-color;
+    text-decoration: none;
+    .opacity(.9);
 }
 
 .carousel-control.control-right{
@@ -34,7 +37,7 @@
 
 .glyphicon-menu-right, .glyphicon-menu-left{
 	background-color: #fff;
-	color: #000;
+	color: #D66E24;
 	border-radius: 50%;
 	line-height: 1;
 	position: absolute;
