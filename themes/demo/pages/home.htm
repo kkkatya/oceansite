@@ -3,3 +3,44 @@ url = "/"
 layout = "mainLayout"
 is_hidden = 0
 ==
+{% put styles %}
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+{% endput %}
+<header id="myCarousel" class="carousel slide">
+        
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="carousel-control control-left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-menu-left"></span>
+        </a>
+        <a class="carousel-control control-right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-menu-right"></span>
+        </a>
+
+    </header>
+    
+    {% put scripts %}
+        <script>
+            $('.carousel').carousel({
+                interval: 10000 //changes the speed
+            })
+        </script>
+    {% endput %}
