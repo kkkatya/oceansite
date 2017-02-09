@@ -3,15 +3,24 @@ url = "/test"
 layout = "mainLayout"
 is_hidden = 0
 
-[carousel]
-id = 1
+[gallery]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 100
+width = 100
+resizer = "crop"
 ==
-{% put styles %}
-    <style>
-        html,
-        body {
-            height: 100%;
-        }
-    </style>
-{% endput %}
-{% component 'carousel' %}
+{% component 'gallery' %}
