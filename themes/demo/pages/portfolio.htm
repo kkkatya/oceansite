@@ -1,0 +1,50 @@
+title = "Portfolio"
+url = "/portfolio"
+layout = "mainLayout"
+is_hidden = 0
+
+[gallery]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 200
+width = 200
+resizer = "crop"
+==
+{% put styles %}
+    <link rel="stylesheet" type="text/css" href="{{'assets/css/colorbox.css'|theme}}">
+{% endput %}
+
+<div class="container thin">
+    <div class="row">
+        {% component 'gallery' %}
+    </div>
+</div>
+
+{% put scripts %}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+    <script>
+        lightbox();
+        function lightbox() {
+            $(".cbox-gallary1").colorbox({
+                rel: 'gallary',
+                maxWidth: "70%",
+                maxHeight: "70%"
+
+            });
+        };
+    </script>
+
+{% endput %}
