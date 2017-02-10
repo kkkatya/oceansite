@@ -35,13 +35,6 @@ img{
 	display: block;
 }
 
-.carousel-control:focus{
-	outline: 0;
-    color: @carousel-control-color;
-    text-decoration: none;
-    .opacity(.9);
-}
-
 .carousel-control.control-right{
 	right: 0;
 	left: auto;
@@ -214,7 +207,7 @@ img{
 	padding: 15px;
 }
 
-.nav>li>a{
+.nav li a{
 	padding: 0px;
 	color: #a8a8a8;
 	margin-bottom: 5px;
@@ -242,6 +235,10 @@ img{
 .social a:hover, .social a:focus{
 	text-decoration: none;
 	color: #a8a8a8;
+}
+
+a.active{
+	color: #D66E24 !important;
 }
 
 @media only screen and (max-device-width: 480px) {
