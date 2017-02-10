@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 04/02/2017 16:57
+  	Creation date: 10/02/2017 19:57
   	*/
 
 @font-face {
@@ -29,6 +29,14 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-facebook-logo:before { content: "\f100"; }
-.flaticon-instagram-logo:before { content: "\f101"; }
-.flaticon-twitter-logo-silhouette:before { content: "\f102"; }
+.flaticon-coins:before { content: "\f100"; }
+.flaticon-cube:before { content: "\f101"; }
+.flaticon-cube-1:before { content: "\f102"; }
+.flaticon-driller:before { content: "\f103"; }
+.flaticon-economic-architecture-building-of-stacked-containers:before { content: "\f104"; }
+.flaticon-edit:before { content: "\f105"; }
+.flaticon-facebook-logo:before { content: "\f106"; }
+.flaticon-house-plans:before { content: "\f107"; }
+.flaticon-instagram-logo:before { content: "\f108"; }
+.flaticon-kitchen-furniture:before { content: "\f109"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f10a"; }

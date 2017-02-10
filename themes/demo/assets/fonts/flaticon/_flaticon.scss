@@ -1,0 +1,61 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/02/2017 19:57
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-coins:before { content: "\f100"; }
+.flaticon-cube:before { content: "\f101"; }
+.flaticon-cube-1:before { content: "\f102"; }
+.flaticon-driller:before { content: "\f103"; }
+.flaticon-economic-architecture-building-of-stacked-containers:before { content: "\f104"; }
+.flaticon-edit:before { content: "\f105"; }
+.flaticon-facebook-logo:before { content: "\f106"; }
+.flaticon-house-plans:before { content: "\f107"; }
+.flaticon-instagram-logo:before { content: "\f108"; }
+.flaticon-kitchen-furniture:before { content: "\f109"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f10a"; }
+    
+    $font-Flaticon-coins: "\f100";
+    $font-Flaticon-cube: "\f101";
+    $font-Flaticon-cube-1: "\f102";
+    $font-Flaticon-driller: "\f103";
+    $font-Flaticon-economic-architecture-building-of-stacked-containers: "\f104";
+    $font-Flaticon-edit: "\f105";
+    $font-Flaticon-facebook-logo: "\f106";
+    $font-Flaticon-house-plans: "\f107";
+    $font-Flaticon-instagram-logo: "\f108";
+    $font-Flaticon-kitchen-furniture: "\f109";
+    $font-Flaticon-twitter-logo-silhouette: "\f10a";
