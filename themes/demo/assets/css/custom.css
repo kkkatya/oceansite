@@ -35,10 +35,6 @@ img{
 	display: block;
 }
 
-.carousel-control:focus{
-	opacity: 0.5;
-}
-
 .carousel-control.control-right{
 	right: 0;
 	left: auto;
@@ -148,7 +144,6 @@ img{
 	display: block;
 	margin: 0 auto;
 	margin-top: 4%;
-	margin-bottom: 12%;
 }
 
 /* Contacts page */
@@ -395,7 +390,6 @@ a.active{
 
 #servicespage iframe {
 	margin-top: 6%;
-	margin-bottom: 15%;
 }
 
 /* Contacts page */
