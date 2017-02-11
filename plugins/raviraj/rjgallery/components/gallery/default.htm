@@ -1,6 +1,6 @@
 
 {% for image in gallery.images %}
-    <div class="nf-item  col-md-3 thumb">
+    <div class="nf-item  col-md-3 col-xs-6 thumb">
         <div class="item-box">
             <a class="cbox-gallary1" href="{{ image.path }}" title="{{ image.title }}">
                 <img alt="1" src="{{ image.getThumb(width, height, resizer) }}" class="img-responsive crop">
