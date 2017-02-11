@@ -172,17 +172,13 @@ img{
 
 .container {
 	margin-top: 3%;
-	height: 100%;
 }
 
 .map {
-	margin-top: 2%;
+	margin-top: 6%;
 	text-align: center;
 	margin-bottom: 2%;
-}
-
-.map iframe {
-	height: 100%;
+	height: 40vh; 
 }
 
 
@@ -315,7 +311,7 @@ a.active{
 	font-size: 80px;
 }
 
-#contactspage h3 {
+#contactspage h2 {
 	text-transform: uppercase;
 	font-size: 60px;
 	margin-bottom: 3%;
@@ -327,12 +323,14 @@ a.active{
 }
 
 .map {
-	margin: 0 auto;
 	margin-top: 10%;
-	margin-bottom: 10%;
-	height: 40%;
-	width: 75vw;
-	height: 30vh;
+	width: 50vw;
+	height: 40vh;
+}
+
+.map iframe {
+	margin: 0 auto;
+	display: block;
 }
 
 /* Navbar */
@@ -408,6 +406,7 @@ a.active{
 
 #contactspage {
 	text-align: center;
+	max-width: 100vw;
 }
 
 #contactspage h1 {
@@ -417,7 +416,7 @@ a.active{
 	font-size: 80px;
 }
 
-#contactspage h3 {
+#contactspage h2 {
 	text-transform: uppercase;
 	font-size: 60px;
 	margin-bottom: 3%;
@@ -429,12 +428,14 @@ a.active{
 }
 
 .map {
-	margin: 0 auto;
 	margin-top: 10%;
-	margin-bottom: 10%;
-	height: 40%;
-	width: 75vw;
-	height: 30vh;
+	width: 50vw;
+	height: 40vh;
+}
+
+.map iframe {
+	margin: 0 auto;
+	display: block;
 }
 
 /* Navbar */
