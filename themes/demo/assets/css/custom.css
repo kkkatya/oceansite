@@ -255,14 +255,23 @@ a.active{
 	position: relative;
 }
 
+#imgblock {
+	margin: 0 auto;
+}
+
 #vrpage img {
 	display: block;
+	position: relative;
 	margin: 0 auto;
 }
 
 #vrpage iframe {
 	display: block;
 	margin: 0 auto;
+}
+
+#vrpage .vr-item-box {
+	margin-top: 10%;
 }
 
 .modal-dialog{
