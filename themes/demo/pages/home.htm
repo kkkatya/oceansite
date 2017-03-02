@@ -16,3 +16,11 @@ id = 1
     </style>
 {% endput %}
 {% component 'carousel' %}
+{% put scripts %}
+	<script>
+		function imgLoaded(div){
+    		div.style.opacity = '1'; 
+		};
+
+	</script>
+{% endput %}
